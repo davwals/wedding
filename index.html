@@ -16,7 +16,7 @@
   --text:#2B3A52;--text-light:#5A6B82;--text-lighter:#8494A8;
   --grout:#C8CDD6;
 }
-html{scroll-behavior:smooth;font-size:16px}
+html{scroll-behavior:smooth;font-size:14px}
 body{font-family:'Jost',sans-serif;font-weight:300;color:var(--text);background:var(--bg);overflow-x:hidden;line-height:1.7;-webkit-text-size-adjust:100%}
 ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--blue-pale);border-radius:2px}
 
@@ -226,9 +226,9 @@ section{padding:4.5rem 1.5rem;position:relative}
   .cd-sec{padding:2.5rem 1rem}
   .gal-grid{grid-template-columns:repeat(2,1fr);gap:3px;padding:3px;border-width:1.5px;max-width:100%}
   .venues{grid-template-columns:1fr;gap:.8rem}
-  .tl::before{left:0}.tl-i{flex-direction:column;padding-left:1.5rem}
-  .tl-t{width:100%;text-align:left;padding-right:0;margin-bottom:.05rem}.tl-t h4{font-size:1.3rem}
-  .tl-dot{position:absolute;left:-.75rem;top:8px;width:7px;height:7px}.tl-c{width:100%;padding-left:0}
+  .tl::before{display:none}.tl-i{flex-direction:column;padding-left:0;align-items:center;text-align:center}
+  .tl-t{width:100%;text-align:center;padding-right:0;margin-bottom:.05rem}.tl-t h4{font-size:1.3rem}
+  .tl-dot{display:none}.tl-c{width:100%;padding-left:0;text-align:center}
   .tl-i{margin-bottom:2rem}
   .g-entry{grid-template-columns:1fr}
   .tr-grid{gap:.8rem}
